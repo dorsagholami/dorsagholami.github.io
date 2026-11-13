@@ -464,6 +464,7 @@ html{scroll-behavior:auto}
 <span style="font: 500 11px/1.4 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink)">views · most-viewed on the channel</span>
 </span>
 </span>
+<span style="display: inline-flex; align-self: flex-start; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 10px 16px; border-radius: 999px; background: rgb(var(--acc-rgb) / 0.12); border: 1px solid rgb(var(--acc-rgb) / 0.35); font-family: 'Archivo', 'Inter', sans-serif; font-weight: 600; font-size: clamp(15px, 1.25vw, 18px); line-height: 1.3; color: var(--ink)"><span style="color: var(--accent); font-weight: 800">56× more views</span> than the channel’s average video</span>
 </a>
 <a class="proof" href="https://youtu.be/Vexw01do4Gk" target="_blank" rel="noopener noreferrer" aria-label="Watch “The Strangest Foods in Rasht” on YouTube (opens in a new tab)">
 <span class="proof-media"><img src="assets/lv-03-thumb.jpg" alt="" loading="lazy" decoding="async"></span>
@@ -477,6 +478,7 @@ html{scroll-behavior:auto}
 <span style="font: 500 11px/1.4 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink)">views · most-viewed on the channel</span>
 </span>
 </span>
+<span style="display: inline-flex; align-self: flex-start; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; padding: 10px 16px; border-radius: 999px; background: rgb(var(--acc-rgb) / 0.12); border: 1px solid rgb(var(--acc-rgb) / 0.35); font-family: 'Archivo', 'Inter', sans-serif; font-weight: 600; font-size: clamp(15px, 1.25vw, 18px); line-height: 1.3; color: var(--ink)"><span style="color: var(--accent); font-weight: 800">39× more views</span> than the channel’s average video</span>
 </a>
 </div>
 </section>
@@ -530,7 +532,6 @@ html{scroll-behavior:auto}
 <div style="display: flex; flex-direction: column; gap: 8px; padding-top: 16px">
 <span style="font: 500 11px/1.4 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent)">{{item.kind}}</span>
 <h3 class="card-title" style="margin: 0; display: flex; align-items: center; gap: 8px; font-family: 'Archivo', 'Inter', sans-serif; font-weight: 600; font-size: clamp(17px, 1.5vw, 21px); line-height: 1.2; letter-spacing: -0.02em">{{item.title}}<svg class="t-arr" width="14" height="14" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"></path></svg></h3>
-<sc-if value="{{item.hasCardChannel}}" hint-placeholder-val="{{false}}"><p style="margin: 0; font: 500 11px/1.4 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.08em; color: var(--mute)">{{item.cardChannel}}</p></sc-if>
 <sc-if value="{{item.hasDesc}}" hint-placeholder-val="{{true}}"><p style="margin: 0; max-width: 40ch; font-size: 14px; line-height: 1.55; color: var(--mute)">{{item.desc}}</p></sc-if>
 <sc-if value="{{item.hasNote}}" hint-placeholder-val="{{false}}"><span style="align-self: flex-start; display: inline-flex; align-items: center; gap: 8px; margin-top: 2px; padding: 6px 10px; border-radius: 999px; border: 1px solid rgb(var(--acc-rgb) / 0.35); color: var(--accent); font: 500 10px/1 'JetBrains Mono', ui-monospace, monospace; letter-spacing: 0.12em; text-transform: uppercase"><span aria-hidden="true" style="width: 6px; height: 6px; border-radius: 50%; background: var(--accent)"></span>{{item.note}}</span></sc-if>
 </div>
